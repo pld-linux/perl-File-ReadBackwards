@@ -6,11 +6,12 @@
 %define	pdir	File
 %define	pnam	ReadBackwards
 Summary:	File::ReadBackwards - read a file backwards by lines
-Summary(pl):	File::ReadBackwards - czytanie plik od koñca, linia po linii
+Summary(pl):	File::ReadBackwards - czytanie pliku od koñca, linia po linii
 Name:		perl-File-ReadBackwards
 Version:	1.02
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	48166c04fd3c0c2843a098c6bb289dec
@@ -21,12 +22,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 File::ReadBackwards reads a file backwards line by line. It is simple
-to use, memory efficient and fast. It supports both an object and a tied
-handle interface.
+to use, memory efficient and fast.  It supports both an object and a
+tied handle interface.
 
 %description -l pl
-File::ReadBackwards czyta plik od koñca, linia po linii.  Jest prosty
-w u¿yciu, wydajny pod wzglêdem zajêto¶ci pamiêci i szybki.  Obs³uguje
+File::ReadBackwards czyta plik od koñca, linia po linii. Jest prosty
+w u¿yciu, wydajny pod wzglêdem zajêto¶ci pamiêci i szybki. Obs³uguje
 zarówno interfejs obiektowy, jak i dowi±zane (przez tie()) uchwyty.
 
 %prep
