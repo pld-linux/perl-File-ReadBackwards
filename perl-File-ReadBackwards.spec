@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	File
-%define	pnam	ReadBackwards
+%define		pdir	File
+%define		pnam	ReadBackwards
 Summary:	File::ReadBackwards - read a file backwards by lines
 Summary(pl):	File::ReadBackwards - czytanie pliku od koñca, linia po linii
 Name:		perl-File-ReadBackwards
