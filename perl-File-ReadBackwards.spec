@@ -31,7 +31,7 @@ zarówno interfejs obiektowy, jak i dowi±zane (przez tie()) uchwyty.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
