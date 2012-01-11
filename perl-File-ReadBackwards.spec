@@ -8,13 +8,13 @@
 Summary:	File::ReadBackwards - read a file backwards by lines
 Summary(pl.UTF-8):	File::ReadBackwards - czytanie pliku od końca, linia po linii
 Name:		perl-File-ReadBackwards
-Version:	1.04
-Release:	2
+Version:	1.05
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	bda339c8b2e5139649cb28c4b775fb42
+# Source0-md5:	613d9d02de6c1d86d5fa5b8816a6b214
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
