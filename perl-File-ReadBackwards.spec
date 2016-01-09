@@ -13,7 +13,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	613d9d02de6c1d86d5fa5b8816a6b214
 URL:		http://search.cpan.org/dist/File-ReadBackwards/
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -53,5 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/%{pdir}/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/File/ReadBackwards.pm
+%{_mandir}/man3/File::ReadBackwards.3pm*
