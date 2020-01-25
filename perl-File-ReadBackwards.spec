@@ -4,7 +4,6 @@
 
 %define		pdir	File
 %define		pnam	ReadBackwards
-%include	/usr/lib/rpm/macros.perl
 Summary:	File::ReadBackwards - read a file backwards by lines
 Summary(pl.UTF-8):	File::ReadBackwards - czytanie pliku od końca, linia po linii
 Name:		perl-File-ReadBackwards
